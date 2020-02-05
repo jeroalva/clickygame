@@ -4,7 +4,7 @@ import React from "react";
 function NavbarElement(props) {
     return (
         <div className="row">
-            <div className="col-12">
+            <div className="col">
                 <nav className="navbar navbar-dark bg-dark" style={{width:100 + '%'}}>
                     <span className="navbar-brand mb-0 h1">Clicky Game</span>
                     <span className="navbar-brand mb-0 h1">Points: {props.points}</span>
